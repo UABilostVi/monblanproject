@@ -1,0 +1,790 @@
+@font-face
+{
+ font-family: 'icomoon';
+ src: url("../icons/icomoon.eot?xzu80u");
+ src: url("../icons/") format("embedded-opentype"), url("../icons/icomoon.ttf?xzu80u") format("truetype"), url("../icons/icomoon.woff?xzu80u") format("woff"), url("../icons/icomoon.svg?xzu80u#icomoon") format("svg");
+ font-weight: normal;
+ font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"]
+{
+  /* use !important to prevent issues with browser extensions that change fonts */
+ font-family: 'icomoon' !important;
+ speak: none;
+ font-style: normal;
+ font-weight: normal;
+ font-variant: normal;
+ text-transform: none;
+ line-height: 1;
+  /* Better Font Rendering =========== */
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-comment:before
+{
+ content: "\e900";
+}
+
+.icon-like:before
+{
+ content: "\e901";
+}
+
+.icon-play:before
+{
+ content: "\e902";
+}
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+html
+{
+ font-family: sans-serif;
+  /* 1 */
+ -ms-text-size-adjust: 100%;
+  /* 2 */
+ -webkit-text-size-adjust: 100%;
+  /* 2 */;
+}
+
+/**
+ * Remove default margin.
+ */
+body
+{
+ margin: 0;
+ padding: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary
+{
+ display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video
+{
+ display: inline-block;
+  /* 1 */
+ vertical-align: baseline;
+  /* 2 */;
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls])
+{
+ display: none;
+ height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template
+{
+ display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a
+{
+ background-color: transparent;
+ text-decoration: none;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active,
+a:hover
+{
+ outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title]
+{
+ border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong
+{
+ font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn
+{
+ font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark
+{
+ background: #ff0;
+ color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small
+{
+ font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup
+{
+ font-size: 75%;
+ line-height: 0;
+ position: relative;
+ vertical-align: baseline;
+}
+
+sup
+{
+ top: -0.5em;
+}
+
+sub
+{
+ bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img
+{
+ border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root)
+{
+ overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure
+{
+ margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr
+{
+ -webkit-box-sizing: content-box;
+ box-sizing: content-box;
+ height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre
+{
+ overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp
+{
+ font-family: monospace, monospace;
+ font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea
+{
+ color: inherit;
+  /* 1 */
+ font: inherit;
+  /* 2 */
+ margin: 0;
+  /* 3 */;
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button
+{
+ overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select
+{
+ text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"]
+{
+ -webkit-appearance: button;
+  /* 2 */
+ cursor: pointer;
+  /* 3 */;
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled]
+{
+ cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner
+{
+ border: 0;
+ padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input
+{
+ line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"]
+{
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+  /* 1 */
+ padding: 0;
+  /* 2 */;
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  /* 2 */ }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend
+{
+ border: 0;
+  /* 1 */
+ padding: 0;
+  /* 2 */;
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea
+{
+ overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+@font-face {
+  font-family: 'merriweather';
+  src: url("../fonts/merriweather-bold-webfont.eot");
+  src: url("../fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/merriweather-bold-webfont.woff2") format("woff2"), url("../fonts/merriweather-bold-webfont.woff") format("woff"), url("../fonts/merriweather-bold-webfont.ttf") format("truetype"), url("../fonts/merriweather-bold-webfont.svg#merriweatherbold") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'merriweather';
+  src: url("../fonts/merriweather-light-webfont.eot");
+  src: url("../fonts/merriweather-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/merriweather-light-webfont.woff2") format("woff2"), url("../fonts/merriweather-light-webfont.woff") format("woff"), url("../fonts/merriweather-light-webfont.ttf") format("truetype"), url("../fonts/merriweather-light-webfont.svg#merriweatherlight") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'merriweather';
+  src: url("../fonts/merriweather-regular-webfont.eot");
+  src: url("../fonts/merriweather-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/merriweather-regular-webfont.woff2") format("woff2"), url("../fonts/merriweather-regular-webfont.woff") format("woff"), url("../fonts/merriweather-regular-webfont.ttf") format("truetype"), url("../fonts/merriweather-regular-webfont.svg#merriweatherregular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway-bold-webfont.eot");
+  src: url("../fonts/raleway-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-bold-webfont.woff2") format("woff2"), url("../fonts/raleway-bold-webfont.woff") format("woff"), url("../fonts/raleway-bold-webfont.ttf") format("truetype"), url("../fonts/raleway-bold-webfont.svg#ralewaybold") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway-extrabold-webfont.eot");
+  src: url("../fonts/raleway-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-extrabold-webfont.woff2") format("woff2"), url("../fonts/raleway-extrabold-webfont.woff") format("woff"), url("../fonts/raleway-extrabold-webfont.ttf") format("truetype"), url("../fonts/raleway-extrabold-webfont.svg#ralewayextrabold") format("svg");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway-extralight-webfont.eot");
+  src: url("../fonts/raleway-extralight-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-extralight-webfont.woff2") format("woff2"), url("../fonts/raleway-extralight-webfont.woff") format("woff"), url("../fonts/raleway-extralight-webfont.ttf") format("truetype"), url("../fonts/raleway-extralight-webfont.svg#ralewayextralight") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway-light-webfont.eot");
+  src: url("../fonts/raleway-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-light-webfont.woff2") format("woff2"), url("../fonts/raleway-light-webfont.woff") format("woff"), url("../fonts/raleway-light-webfont.ttf") format("truetype"), url("../fonts/raleway-light-webfont.svg#ralewaylight") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway-medium-webfont.eot");
+  src: url("../fonts/raleway-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-medium-webfont.woff2") format("woff2"), url("../fonts/raleway-medium-webfont.woff") format("woff"), url("../fonts/raleway-medium-webfont.ttf") format("truetype"), url("../fonts/raleway-medium-webfont.svg#ralewaymedium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway-regular-webfont.eot");
+  src: url("../fonts/raleway-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-regular-webfont.woff2") format("woff2"), url("../fonts/raleway-regular-webfont.woff") format("woff"), url("../fonts/raleway-regular-webfont.ttf") format("truetype"), url("../fonts/raleway-regular-webfont.svg#ralewayregular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway-semibold-webfont.eot");
+  src: url("../fonts/raleway-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-semibold-webfont.woff2") format("woff2"), url("../fonts/raleway-semibold-webfont.woff") format("woff"), url("../fonts/raleway-semibold-webfont.ttf") format("truetype"), url("../fonts/raleway-semibold-webfont.svg#ralewaysemibold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'raleway';
+  src: url("../fonts/raleway-thin-webfont.eot");
+  src: url("../fonts/raleway-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway-thin-webfont.woff2") format("woff2"), url("../fonts/raleway-thin-webfont.woff") format("woff"), url("../fonts/raleway-thin-webfont.ttf") format("truetype"), url("../fonts/raleway-thin-webfont.svg#ralewaythin") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'montserrat';
+  src: url("../fonts/montserrat-black-webfont.eot");
+  src: url("../fonts/montserrat-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-black-webfont.woff2") format("woff2"), url("../fonts/montserrat-black-webfont.woff") format("woff"), url("../fonts/montserrat-black-webfont.ttf") format("truetype"), url("../fonts/montserrat-black-webfont.svg#montserratblack") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'montserrat';
+  src: url("../fonts/montserrat-bold-webfont.eot");
+  src: url("../fonts/montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat-bold-webfont.woff") format("woff"), url("../fonts/montserrat-bold-webfont.ttf") format("truetype"), url("../fonts/montserrat-bold-webfont.svg#montserratbold") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'montserrat';
+  src: url("../fonts/montserrat-extrabold-webfont.eot");
+  src: url("../fonts/montserrat-extrabold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-extrabold-webfont.woff2") format("woff2"), url("../fonts/montserrat-extrabold-webfont.woff") format("woff"), url("../fonts/montserrat-extrabold-webfont.ttf") format("truetype"), url("../fonts/montserrat-extrabold-webfont.svg#montserratextrabold") format("svg");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'montserrat';
+  src: url("../fonts/montserrat-extralight-webfont.eot");
+  src: url("../fonts/montserrat-extralight-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-extralight-webfont.woff2") format("woff2"), url("../fonts/montserrat-extralight-webfont.woff") format("woff"), url("../fonts/montserrat-extralight-webfont.ttf") format("truetype"), url("../fonts/montserrat-extralight-webfont.svg#montserratextralight") format("svg");
+  font-weight: 200;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'montserrat';
+  src: url("../fonts/montserrat-light-webfont.eot");
+  src: url("../fonts/montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff"), url("../fonts/montserrat-light-webfont.ttf") format("truetype"), url("../fonts/montserrat-light-webfont.svg#montserratlight") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'montserrat';
+  src: url("../fonts/montserrat-medium-webfont.eot");
+  src: url("../fonts/montserrat-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-medium-webfont.woff2") format("woff2"), url("../fonts/montserrat-medium-webfont.woff") format("woff"), url("../fonts/montserrat-medium-webfont.ttf") format("truetype"), url("../fonts/montserrat-medium-webfont.svg#montserratmedium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'montserrat';
+  src: url("../fonts/montserrat-regular-webfont.eot");
+  src: url("../fonts/montserrat-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff"), url("../fonts/montserrat-regular-webfont.ttf") format("truetype"), url("../fonts/montserrat-regular-webfont.svg#montserratregular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'montserrat';
+  src: url("../fonts/montserrat-semibold-webfont.eot");
+  src: url("../fonts/montserrat-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-semibold-webfont.woff2") format("woff2"), url("../fonts/montserrat-semibold-webfont.woff") format("woff"), url("../fonts/montserrat-semibold-webfont.ttf") format("truetype"), url("../fonts/montserrat-semibold-webfont.svg#montserratsemibold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'montserrat';
+  src: url("../fonts/montserrat-thin-webfont.eot");
+  src: url("../fonts/montserrat-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-thin-webfont.woff2") format("woff2"), url("../fonts/montserrat-thin-webfont.woff") format("woff"), url("../fonts/montserrat-thin-webfont.ttf") format("truetype"), url("../fonts/montserrat-thin-webfont.svg#montserratthin") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
+form,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border-style: none; }
+
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+input[type='search'],
+input[type='password'],
+textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+textarea {
+  resize: vertical;
+  vertical-align: top; }
+
+button,
+input[type='button'],
+input[type='reset'],
+input[type='file'],
+input[type='submit'] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  cursor: pointer; }
+
+img {
+  display: inline-block;
+  vertical-align: top;
+  height: auto; }
+
+body {
+  color: #000;
+  background: #fff;
+  min-width: 320px; }
+
+#wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+
+.container {
+  margin: 0 auto;
+  max-width: 936px;
+  padding: 0 15px; }
+
+img {
+  height: auto; }
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0;
+  font-size: 35px; }
+
+ul {
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, ol, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+.header-wrapper {
+  line-height: 0;
+  font-size: 0; }
+  @media (min-width: 768px) {
+    .header-wrapper > * {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1.2;
+      font-size: 15px; } }
+  .header-wrapper .logo-holder {
+    text-align: center; }
+    @media (min-width: 768px) {
+      .header-wrapper .logo-holder {
+        padding-left: 60px;
+        width: 30%; } }
+
+.header-content > * {
+  margin-bottom: 15px; }
+
+@media (min-width: 768px) {
+  .header-content {
+    padding-left: 40px;
+    width: 70%; } }
+
+@media (min-width: 768px) {
+  .header-content .title-holder > * {
+    display: inline-block;
+    vertical-align: middle; } }
+
+.header-content .title-holder h1 {
+  font-size: 35px;
+  line-height: 1.2;
+  margin-right: 18px;
+  margin-bottom: 15px; }
+  @media (min-width: 768px) {
+    .header-content .title-holder h1 {
+      margin-bottom: 0; } }
+
+.header-content .title-holder .start-date {
+  font-size: 15px;
+  line-height: 1.2;
+  padding: 8px;
+  color: #4090db;
+  border: 1px solid #4090db;
+  border-radius: 3px;
+  text-align: center; }
+
+.header-content ul {
+  margin: 0 -14px;
+  margin-bottom: 15px;
+  text-align: center; }
+  @media (min-width: 768px) {
+    .header-content ul {
+      text-align: left; } }
+  .header-content ul li {
+    font-size: 13px;
+    line-height: 1.2;
+    display: inline-block;
+    padding: 0 14px; }
+    @media (min-width: 768px) {
+      .header-content ul li {
+        font-size: 17px; } }
+    .header-content ul li span {
+      font-weight: bold; }
+
+main {
+  background: #fafafa;
+  padding-top: 70px; }
+
+.main-content {
+  font-size: 0;
+  line-height: 0;
+  margin: 0 -15px; }
+  .main-content .content-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 0 15px 30px 15px;
+    font-size: 15px;
+    line-height: 1.2; }
+    @media (min-width: 768px) {
+      .main-content .content-item {
+        width: 33.33%; } }
+    .main-content .content-item img {
+      width: 100%; }
+    .main-content .content-item .content-item-holder {
+      position: relative; }
+      .main-content .content-item .content-item-holder table {
+        font-size: 17px;
+        font-weight: 700px;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        color: #fff;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        height: 66px; }
+        .main-content .content-item .content-item-holder table td {
+          padding-right: 40px; }
+      .main-content .content-item .content-item-holder p {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        bottom: 10px;
+        color: #fff; }
