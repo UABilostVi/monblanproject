@@ -79,10 +79,17 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, ol, ul, li {
       padding-left: 60px;
       width: 30%;
     }
+    img {
+      padding-bottom: 25px;
+    }
   }
 }
 
 .header-content {
+  text-align: center;
+  @include media('>=tablet') {
+    text-align: left;
+  }
   > * {
     margin-bottom: 15px;
   }
@@ -118,8 +125,10 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, ol, ul, li {
   }
   input {
     border: 1px solid grey;
-    padding: 5px;
+    padding-left: 7px;
     border-radius: 3px;
+    width: 120px;
+    height: 30px;;
   }
   ul {
     margin: 0 -14px;
@@ -156,10 +165,13 @@ main {
   .content-item {
     display: inline-block;
     vertical-align: top;
-    width: 50%;
+    width: 100%;
     padding: 0 15px 30px 15px;
     font-size: 15px;
     line-height: 1.2;
+    @include media('>=phone') {
+      width: 50%;
+    }
     @include media('>=tablet') {
       width: 33.33%;
     }
@@ -179,7 +191,13 @@ main {
         transform: translateY(-50%);
         height: 66px;
         td {
-          padding-right: 35px;
+          padding-right: 20px;
+          @include media('>=phone') {
+            padding-right: 30px;
+          }
+          @include media('>=tablet') {
+            padding-right: 35px;
+          }
           span {
             padding-right: 5px;
           }
@@ -198,11 +216,13 @@ main {
 
 .more {
   text-align: center;
+  padding-top: 15px;
   a {
+    font-size: 12px;
     display: inline-block;
     border-radius: 20px;
     border: 1px solid #000;
-    padding: 10px 25px;
+    padding: 10px 30px;
     text-transform: uppercase;
     color: #000;
   }

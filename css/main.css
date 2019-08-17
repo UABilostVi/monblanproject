@@ -696,60 +696,63 @@ div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, ol, ul, li {
       .header-wrapper .logo-holder {
         padding-left: 60px;
         width: 30%; } }
+    .header-wrapper .logo-holder img {
+      padding-bottom: 25px; }
 
-.header-content > * {
-  margin-bottom: 15px; }
-
-@media (min-width: 768px) {
-  .header-content {
-    padding-left: 40px;
-    width: 70%; } }
-
-@media (min-width: 768px) {
-  .header-content .title-holder > * {
-    display: inline-block;
-    vertical-align: middle; } }
-
-.header-content .title-holder h1 {
-  font-size: 35px;
-  line-height: 1.2;
-  margin-right: 18px;
-  margin-bottom: 15px; }
-  @media (min-width: 768px) {
-    .header-content .title-holder h1 {
-      margin-bottom: 0; } }
-
-.header-content .title-holder .start-date {
-  font-size: 15px;
-  line-height: 1.2;
-  padding: 8px;
-  color: #4090db;
-  border: 1px solid #4090db;
-  border-radius: 3px;
-  text-align: center; }
-
-.header-content input {
-  border: 1px solid grey;
-  padding: 5px;
-  border-radius: 3px; }
-
-.header-content ul {
-  margin: 0 -14px;
-  margin-bottom: 15px;
+.header-content {
   text-align: center; }
   @media (min-width: 768px) {
-    .header-content ul {
+    .header-content {
       text-align: left; } }
-  .header-content ul li {
-    font-size: 13px;
+  .header-content > * {
+    margin-bottom: 15px; }
+  @media (min-width: 768px) {
+    .header-content {
+      padding-left: 40px;
+      width: 70%; } }
+  @media (min-width: 768px) {
+    .header-content .title-holder > * {
+      display: inline-block;
+      vertical-align: middle; } }
+  .header-content .title-holder h1 {
+    font-size: 35px;
     line-height: 1.2;
-    display: inline-block;
-    padding: 0 14px; }
+    margin-right: 18px;
+    margin-bottom: 15px; }
     @media (min-width: 768px) {
-      .header-content ul li {
-        font-size: 17px; } }
-    .header-content ul li span {
-      font-weight: bold; }
+      .header-content .title-holder h1 {
+        margin-bottom: 0; } }
+  .header-content .title-holder .start-date {
+    font-size: 15px;
+    line-height: 1.2;
+    padding: 8px;
+    color: #4090db;
+    border: 1px solid #4090db;
+    border-radius: 3px;
+    text-align: center; }
+  .header-content input {
+    border: 1px solid grey;
+    padding-left: 7px;
+    border-radius: 3px;
+    width: 120px;
+    height: 30px; }
+  .header-content ul {
+    margin: 0 -14px;
+    margin-bottom: 15px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .header-content ul {
+        text-align: left; } }
+    .header-content ul li {
+      font-size: 13px;
+      line-height: 1.2;
+      display: inline-block;
+      padding: 0 14px; }
+      @media (min-width: 768px) {
+        .header-content ul li {
+          font-size: 17px; } }
+      .header-content ul li span {
+        font-weight: bold; }
 
 main {
   background: #fafafa;
@@ -763,10 +766,13 @@ main {
   .main-content .content-item {
     display: inline-block;
     vertical-align: top;
-    width: 50%;
+    width: 100%;
     padding: 0 15px 30px 15px;
     font-size: 15px;
     line-height: 1.2; }
+    @media (min-width: 480px) {
+      .main-content .content-item {
+        width: 50%; } }
     @media (min-width: 768px) {
       .main-content .content-item {
         width: 33.33%; } }
@@ -787,7 +793,13 @@ main {
         transform: translateY(-50%);
         height: 66px; }
         .main-content .content-item .content-item-holder table td {
-          padding-right: 35px; }
+          padding-right: 20px; }
+          @media (min-width: 480px) {
+            .main-content .content-item .content-item-holder table td {
+              padding-right: 30px; } }
+          @media (min-width: 768px) {
+            .main-content .content-item .content-item-holder table td {
+              padding-right: 35px; } }
           .main-content .content-item .content-item-holder table td span {
             padding-right: 5px; }
       .main-content .content-item .content-item-holder p {
@@ -798,11 +810,13 @@ main {
         color: #fff; }
 
 .more {
-  text-align: center; }
+  text-align: center;
+  padding-top: 15px; }
   .more a {
+    font-size: 12px;
     display: inline-block;
     border-radius: 20px;
     border: 1px solid #000;
-    padding: 10px 25px;
+    padding: 10px 30px;
     text-transform: uppercase;
     color: #000; }

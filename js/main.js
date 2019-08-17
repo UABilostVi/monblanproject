@@ -1,6 +1,3 @@
-// $(document).ready( function (){
-//     $('#date').datepicker();
-// });
 
 $( function() {
     var dateFormat = "mm/dd/yy",
@@ -8,11 +5,7 @@ $( function() {
         .datepicker({
           defaultDate: "+1w",
           numberOfMonths: 1,
-          dateFormat: "dd_mm_yy",
-          showOn: "button",
-          buttonImage: "images/calendar.gif",
-          buttonImageOnly: true,
-          buttonText: ' '
+          dateFormat: "dd_mm_yy"
         })
         .on( "change", function() {
           to.datepicker( "option", "minDate", getDate( this ) );
